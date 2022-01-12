@@ -26,8 +26,5 @@ steps:
       command: 'custom'
       customCommand: 'run build'
 
-  - task: PublishPipelineArtifact@1
-    inputs:
-      targetPath: '$(Pipeline.Workspace)/public'
-      artifactName: 'drop' 
-      artifactType: 'pipeline' 
+  - publish: $(System.DefaultWorkingDirectory)/public
+    artifact: drop
