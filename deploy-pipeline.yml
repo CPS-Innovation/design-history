@@ -16,6 +16,17 @@ steps:
       command: "install"
     displayName: "npm install"
 
+  - task: Npm@1
+    inputs:
+      command: 'custom'
+      customCommand: 'prebuild'
+
+  - task: Npm@1
+    inputs:
+      command: 'custom'
+      customCommand: 'build'
+
   - task: PublishPipelineArtifact@0
     inputs:
       ArtifactName: "drop"
+      targetPath: $(OutputDirectory)/public
