@@ -26,7 +26,8 @@ steps:
       command: 'custom'
       customCommand: 'run build'
 
-  - task: PublishPipelineArtifact@0
+  - task: PublishPipelineArtifact@1
     inputs:
-      ArtifactName: "drop"
-      targetPath: $(OutputDirectory)/public
+      targetPath: '$(Pipeline.Workspace)/public'
+      artifactName: 'drop' 
+      artifactType: 'pipeline' 
