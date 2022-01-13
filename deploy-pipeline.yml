@@ -1,0 +1,35 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "14.x"
+
+  - task: Npm@1
+    inputs:
+      command: "install"
+    displayName: "npm install"
+
+  - task: Npm@1
+    inputs:
+      command: 'custom'
+      customCommand: 'run prebuild'
+
+  - task: Npm@1
+    inputs:
+      command: 'custom'
+      customCommand: 'run build'
+
+  # - publish: $(System.DefaultWorkingDirectory)/public
+  #   artifact: drop
+
+  - task: AzureStaticWebApp@0
+    inputs:
+      app_location: '/public'
+      azure_static_web_apps_api_token: $(deployment_token)
