@@ -1,3 +1,3 @@
 module.exports = {
-  productName: 'CPS Rumpole Design history'
+  productName: 'CPS Rumpole Design History'
 }
