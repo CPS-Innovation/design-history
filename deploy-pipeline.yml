@@ -9,8 +9,8 @@ pool:
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: "14.x"
-
+      versionSpec: '14.x'
+      
   - task: Npm@1
     inputs:
       command: "install"
@@ -26,10 +26,7 @@ steps:
       command: 'custom'
       customCommand: 'run build'
 
-  # - publish: $(System.DefaultWorkingDirectory)/public
-  #   artifact: drop
-
-  - task: AzureStaticWebApp@0
+  - task: PublishPipelineArtifact@0
     inputs:
-      app_location: '/public'
-      azure_static_web_apps_api_token: $(deployment_token)
+      targetPath: "public"
+      ArtifactName: "drop"
