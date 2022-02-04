@@ -30,14 +30,14 @@ I need to do the thing<br /> -->
       text: "Search results",
        caption: "<br/>- Results of a case URN search. The only results will be an exact match to the URN. Cases can be split so there maybe multiple results.
        - This version has an extra status field to make it clearer which cases are charged and not charged.
-       - There is also a subtle change to the filter design - some of the keylines have been removed <br /><br /> <b>User Research</b><br /><br />t.b.c"
+       - There is also a subtle change to the filter design - some of the keylines have been removed <br /><br /> <b>User Research</b><br /><br />works well. Needs addional status in filter for finalised. Users also want date of offence on the charged results. Also new info about data means we need to accomodate multiple names, offences and a to and from date"
     }, 
     {
       text: "Case file empty",
         caption: "<br/>- When the user clicks a case from the search page they land here.
         - The charges and the case files are listed in the accordions on the left hand side. When the user clicks an accordion it opens to reveal the case files within.
         - Case files and exhibits have been combined
-        - Search has been moved above the case<br /><br /> <b>User Research</b><br /><br />t.b.c "
+        - Search has been moved above the case<br /><br /> <b>User Research</b><br /><br />Working well, but want to remove forensics (and put into exhibits) + add a new folder for communications. We also want to test a version that scrolls down the page giving more space at the top for the document (important on smalls screens) "
     },
         {
       text: "Case file tab1",
@@ -55,15 +55,15 @@ I need to do the thing<br /> -->
     },
     {
           text: "Case file search modal",
-      caption: "When the user searches, the search results will open in a modal window. Clicking a result will close the window and open a new tab with the result in it<br /><br /> <b>User Research</b><br /><br /> t.b.c "
+      caption: "When the user searches, the search results will open in a modal window. Clicking a result will close the window and open a new tab with the result in it<br /><br /> <b>User Research</b><br /><br /> Users understand this, BUT they don't know how to get back to the results "
     },
         {
           text: "Case file search tab",
-      caption: "When the user searches, the search results will open in a new tab. Clicking a result will open a new tab with the result in it. The search results will remain in a tab<br /><br /> <b>User Research</b><br /><br /> t.b.c "
+      caption: "When the user searches, the search results will open in a new tab. Clicking a result will open a new tab with the result in it. The search results will remain in a tab<br /><br /> <b>User Research</b><br /><br /> Users understand this, but don't always get back to the tab if there are a lot of tabs and they have scrolled "
     },
             {
           text: "Case file search file open",
-      caption: "Search results tab have an additional blue bar at the top that tells the user how many results are found in that document and a 'previous/next' navigation that will allow them to move between the results on that page.<br /><br /> <b>User Research</b><br /><br /> t.b.c "
+      caption: "Search results tab have an additional blue bar at the top that tells the user how many results are found in that document and a 'previous/next' navigation that will allow them to move between the results on that page.<br /><br /> <b>User Research</b><br /><br /> Generally works well but don't always understand what the previous and next buttons do, sometime think they go to the next document. Maybe change the copy to make it clearer"
     }
   ]
 }) }}
