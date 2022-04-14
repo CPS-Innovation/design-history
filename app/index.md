@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "A design history for CPS Polaris, Redaction Log and Witness Expenses"
+title: "A design history for CPS Polaris, Redaction log and Claim witness expenses"
 description: "To document and share our design decisions."
 
 posts:
