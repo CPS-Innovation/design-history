@@ -2,6 +2,7 @@
 title:  Evolution of Redaction
 description: The evolution of the redaction function from v5 to v6
 date: 2022-03-07
+tags: polaris
 ---
 
 * We have made several versions of the redaction prototype and it has changed significantly from where we started with our early assumptions and hypothesis.

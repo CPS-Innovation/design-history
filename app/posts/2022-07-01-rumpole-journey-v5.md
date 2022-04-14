@@ -2,6 +2,7 @@
 title:  Redaction Log
 description: Sketches of a GDS design version of redaction log
 date: 2022-04-01
+tags: redaction-log
 ---
 
 * We have made 2 sketches of the redaction log journey - 1. Using the GDS patterns in a traditional way and 2. Keeping the GDS look and feel but keeping the general layout of what has currently been built

@@ -1,9 +1,10 @@
 {
   "layout": "post",
   "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
-  "tags": ["search-index"],
+  "tags": ["polaris"],
   "eleventyComputed": {
     "eleventyNavigation": {
+      "parent": "polaris",
       "key": "{{ title }}",
       "excerpt": "{{ description }}"
     }
