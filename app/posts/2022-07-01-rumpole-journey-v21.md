@@ -6,7 +6,7 @@ tags: witex
 ---
 
 * We changed policy based on UR to make it easier for users to claim for loss of pay.
-* Users don't need to work out (or ask their employers) how much they lost by taking an unpaid day off work
+* Users don't need to work out (or ask their employers) how much they lost by taking an unpaid day off work. 
 
 
 <!-- ## User needs
