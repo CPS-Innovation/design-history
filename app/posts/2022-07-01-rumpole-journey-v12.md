@@ -5,9 +5,9 @@ date: 2023-01-10
 tags: witex
 ---
 
-* As part of our initial testing we were trying to see whether a task list, personalised task list, linear journey or other would be the best wasy to struture the service .
+* This is one of our first rought drafts of a linear prototype. Based on the UR we did on the sketches and drawings of the 3 versions.
 
-* tl:dr - this is the better option
+
 
 
 <!-- ## User needs
@@ -26,7 +26,7 @@ I need to do the thing<br /> -->
 
     {
        text: "1. Start",
-       caption: "Using the standard start pattern. Telling users what they need to have before they start, in particular about the receipts they need.   <br /><br /> <b>User Research</b><br /><br />We found that users often had no idea about expenses when they started to fill in the current offline form. <br /> They hadn't receieved any guidance so the info here isn't enough - they need to know what they can claim for, how much etc before they start the claim, ideally before they incur expenses.",
+       caption: "Using the standard start pattern. Telling users what they need to have before they start, in particular about the receipts they need.   <br /><br />We also considered whether we front-load the login page with a list of requirements for a user - e.g. evidence of receipts, details of the court dates - to ensure a user didn't have to leave the journey as they didn't know what they needed to complete it.<br /> <br /> <b>User Research</b><br /><br />We found that users often had no idea about expenses when they started to fill in the current offline form. <br /><br /> They hadn't receieved any guidance so the info here isn't enough - they need to know what they can claim for, how much etc before they start the claim, ideally before they incur expenses.",
       img: { src: "1.png" }
     },
         {
@@ -35,38 +35,38 @@ I need to do the thing<br /> -->
       img: { src: "2.png" }
     },
         {
-       text: "3. Who is claiming expenses",
-       caption: "Before we figured out the MVP we were expecting users to claim for themselves or others.  <br /><br /> <b>User Research</b><br /><br />Users understood this",
+       text: "3. Email code",
+       caption: "We weren't really testing this in detail as the onboarding process had not been figured out.  <br /><br /> <b>User Research</b><br /><br />Users understood this",
       img: { src: "3.png" }
     },
         {
-       text: "4. Food and drink",
-       caption: "Food and drink can be claimed by anyone.    <br /><br /> <b>User Research</b><br /><br />This was often the first time users had come across the rates for food and drink. Users often expected to need receipts and be able to claim for the amounts they spent, this was a suprise and the actual rates (especially in London) we're an seen as too low<br />It wan't clear that the amount of time is for away from home or work rather than just being in court.",
+       text: "4. Who are you claiming for",
+       caption: "We weren't really testing this in detail as the onboarding process had not been figured out. <br /><br /> <b>User Research</b><br /><br />N/A",
       img: { src: "4.png" }
     },
         {
        text: "5. Claiming food",
-       caption: "This mirrors the way the current blue form asks this question, and is before the MVP restricted claims to one day or less.   <br /><br /> <b>User Research</b><br /><br />This didn't really work:<br />- users quite often put in hours rather than days<br /><br />- they didn't know what the next questions were, about 5-10 hours etc, and found that was confusing<br /><br /> they often thought they could only claim for the time there were in court<br /><br />- a minority of users put an amount they wanted to claim in here rather than the number of days",
+       caption: "Food and drink can be claimed by anyone.    <br /><br /> <b>User Research</b><br /><br />This was often the first time users had come across the rates for food and drink. Users often expected to need receipts and be able to claim for the amounts they spent, this was a suprise and the actual rates (especially in London) we're seen as too low<br /><br />It wan't clear that the amount of time is for away from home or work rather than just being in court.",
       img: { src: "5.png" }
     },
         {
        text: "6. Claiming food",
-       caption: "Same as 5. Claiming food  <br /><br /> <b>User Research</b><br /><br />",
+            caption: "This mirrors the way the current blue form asks this question, and is before the MVP restricted claims to one day or less.   <br /><br /> <b>User Research</b><br /><br />This didn't really work:<br />- users quite often put in hours rather than days<br /><br />- they didn't know what the next questions were, about 5-10 hours etc, and found that was confusing<br /><br /> they often thought they could only claim for the time there were in court<br /><br />- a minority of users put an amount they wanted to claim in here rather than the number of days",
       img: { src: "6.png" }
     },
         {
        text: "7. Claiming food",
-       caption: "Same as 5. Claiming food  <br /><br /> <b>User Research</b><br /><br />",
+       caption: "Same as 6. Claiming food  <br /><br /> <b>User Research</b><br /><br />",
       img: { src: "7.png" }
     },
             {
        text: "8. Claiming food",
-       caption: "Same as 5. Claiming food  <br /><br /> <b>User Research</b><br /><br />",
+       caption: "Same as 6. Claiming food  <br /><br /> <b>User Research</b><br /><br />",
       img: { src: "8.png" }
     },
         {
        text: "9. Train journey",
-       caption: "We tried a few different ways of asking this quesion - users could add up the total cost of their journeys or add them individually.  <br /><br /> <b>User Research</b><br /><br />This generally worked ok, users preferred to add in a total than to add individual tickets or journeys.<br />In an earlier version users did not always see the content telling them about receipts, adding the emphasis made it clearer and more likely the user would read it.",
+       caption: "We tried a few different ways of asking this quesion - users could add up the total cost of their journeys or add them individually.  <br /><br /> <b>User Research</b><br /><br />This generally worked ok, users preferred to add in a total than to add individual tickets or journeys.<br /><br />In an earlier version users did not always see the content telling them about receipts, adding the emphasis made it clearer and more likely the user would read it.",
       img: { src: "9.png" }
     },
         {
@@ -76,7 +76,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "11. Overnight stay",
-       caption: "The policy on overnight stay has a lot of options that affect how much you can claim - whether you paid for yourself, stayed with friends, which city you were in etc. This is our first attempt to explain it to users.  <br /><br /> <b>User Research</b><br /><br />Some of the reasons you could stay were a bit vague - 'life too far away from home'<br /><br />The detailed copy wasn't entirely clear and needs to be simplifed further<br /><br /> Users didn't know who the CPS wasor who paid for their stay when it was paid for.",
+       caption: "The policy on overnight stay has a lot of options that affect how much you can claim - whether you paid for yourself, stayed with friends, which city you were in etc. This is our first attempt to explain it to users.  <br /><br /> <b>User Research</b><br /><br />Some of the reasons you could stay were a bit vague - 'live too far away from home'<br /><br />The detailed copy wasn't entirely clear and needs to be simplifed further<br /><br /> Users didn't know who the CPS was or who paid for their stay when it was paid for.",
       img: { src: "11.png" }
     },
         {
@@ -102,7 +102,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "16. Did you pay, Yes",
-       caption: "The user paid for their overnight stay themselves. The content was not entirely clear and we worked to improve it  <br /><br /> <b>User Research</b><br /><br />Users understood what to do but the content was not entirel clear.",
+       caption: "The user paid for their overnight stay themselves. The content was not entirely clear and we worked to improve it  <br /><br /> <b>User Research</b><br /><br />Users understood what to do but the content was not entirely clear.",
       img: { src: "15b.png" }
     },
         {
@@ -132,7 +132,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "22. Employed or self employed",
-       caption: "The claim amounts and process is different for employed and self employed people.  <br /><br /> <b>User Research</b><br /><br />Users understood this but we did find out later that directors of ltd companies would sometimes but themselves down as self employed, which is incorrect.",
+       caption: "The claim amounts and process is different for employed and self employed people.  <br /><br /> <b>User Research</b><br /><br />Users understood this but we did find out later that directors of Ltd companies would sometimes put themselves down as self employed, which is incorrect.",
       img: { src: "21.png" }
     },
         {
@@ -142,7 +142,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "24. Away for less than 4 hours",
-       caption: "If users spent less than 4 hours away from work they will get upto £38.50 and £67 for a full day. This was to see how many days they had been away for less than 4 hours.  <br /><br /> <b>User Research</b><br /><br />This and the next screen doesn't really work. User would put hours into the box, didn't understand that they should put the amount of time away from work rather than the time in court and they didn't know about the next page which made it confusing.",
+       caption: "If users spent less than 4 hours away from work they will get upto £33.50 and £67 for a full day. This was to see how many days they had been away for less than 4 hours.  <br /><br /> <b>User Research</b><br /><br />This and the next screen doesn't really work. Users would put hours into the box, didn't understand that they should put the amount of time away from work rather than the time in court and they didn't know about the next page which made it confusing.",
       img: { src: "23.png" }
     },
         {
@@ -151,8 +151,8 @@ I need to do the thing<br /> -->
       img: { src: "24.png" }
     },
         {
-       text: "26. Is you take home pay more than £67?",
-       caption: "The policy was to pay users a maximum of £67 a day, which is only just above the adult minimum wage per person. If they earned less then we would need to know how much they earned in order to pay them that amount. Our hypothesis was that users would find this difficult to know or workout.   <br/><br /> The current form asks employers to fill out the amount that a user would have lost on the day they were off, we didn't want to use this method in the digital form for several reasons - we'd heard from users that a significant percentage would not want to tell their employer they were going to court, we were not convinced that the calculations would be accurate just because employers were doing it and we didn't want to add a process that would stop or delay the process because of a reliance on a 3rd party. <br /><br /> <b>User Research</b><br /><br />Some users knew that they earned over £67 a day, but a significant amount of users didn't know how much they earned per day which would lead them down a route of being asked to calculate it.",
+       text: "26. Is your take home pay more than £67?",
+       caption: "The policy was to pay users a maximum of £67 a day, which is only just above the adult minimum wage per person. If they earned less, then we would need to know how much they earned in order to pay them that amount. Our hypothesis was that users would find this difficult to know or workout.   <br/><br /> The current form asks employers to fill out the amount that a user would have lost on the day they were off, we didn't want to use this method in the digital form for several reasons - we'd heard from users that a significant percentage would not want to tell their employer they were going to court, we were not convinced that the calculations would be accurate just because employers were doing it and we didn't want to add a process that would stop or delay the process because of a reliance on a 3rd party. <br /><br /> <b>User Research</b><br /><br />Some users knew that they earned over £67 a day, but a significant amount of users didn't know how much they earned per day which would lead them down a route of being asked to calculate it.",
       img: { src: "25.png" }
     },
         {
@@ -177,7 +177,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "31. Pet sitting",
-       caption: "Users can claim for pet sitting if they had to get someone to look after their pets while they were in court. This is not pulled out as a specific category in the current blue form but has the highest volume of claims in the 'other expenses' section.    <br /><br /> <b>User Research</b><br /><br />Users generally were very suprised by this, some thought it made sense but we freuqently heard people saying that it was open to fraud and that they thought some people would try it on. We also heard suprise that the amounts were the same as childcare and an unpaid day off for a person, as well as there being a section for pet care but not adult care.",
+       caption: "Users can claim for pet sitting if they had to get someone to look after their pets while they were in court. This is not pulled out as a specific category in the current blue form but has the highest volume of claims in the 'other expenses' section.    <br /><br /> <b>User Research</b><br /><br />Users generally were very surprised by this, some thought it made sense but we frequently heard people saying that it was open to fraud and that they thought some people would try it on. We also heard surprise that the amounts were the same as childcare and an unpaid day off for a person, as well as there being a section for pet care but not adult care.",
       img: { src: "30.png" }
     },
         {
@@ -187,7 +187,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "33. Upload expenses",
-       caption: "Users preferred the upload to be at the end of the journey and generally understood what this section was and how it worked.   <br /><br /> <b>User Research</b><br /><br />Most users understood this but some commented that their elderly relatives may have trouble uploading receipts to the service. Most users on a desktop said they would take a photo of a receipt on thier phone, email it to themselves and then upload it. Mobile users would take a photo of the receipt and upload it from the phone/tablet. ",
+       caption: "Users preferred the upload to be at the end of the journey and generally understood what this section was and how it worked.   <br /><br /> <b>User Research</b><br /><br />Most users understood this but some commented that their elderly relatives may have trouble uploading receipts to the service. Most users on a desktop said they would take a photo of a receipt on their phone, email it to themselves and then upload it. Mobile users would take a photo of the receipt and upload it from the phone/tablet. ",
       img: { src: "32.png" }
     },
         {

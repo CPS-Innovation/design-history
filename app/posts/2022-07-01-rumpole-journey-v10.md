@@ -36,7 +36,7 @@ I need to do the thing<br /> -->
     },
         {
       text: "3. At the end",
-       caption: "This option lets the user upload all their receipts all in one go at the end of the process. The user will have been through the rest of the process and will know what they can claim for and how much. They only need to upload once  <br /><br /> <b>User Research</b><br /><br />Users prefered this option to the others. Doing it once, at the end was seen as easier and simpler by a majority of users tested <br />Users would find it helpful for us to remind them here what they need to upload and how much they have claimed for. E.g. £20 of train tickets.",
+       caption: "This option lets the user upload all their receipts in one go at the end of the process. The user will have been through the rest of the process and will know what they can claim for and how much. They only need to upload once.  <br /><br /> <b>User Research</b><br /><br />Users prefered this option to the others. Doing it once, at the end was seen as easier and simpler by a majority of users tested. <br />< br />Users would find it helpful for us to remind them here what they need to upload and how much they have claimed for. e.g. £20 of train tickets.",
         img: { src: "2.jpeg" }
     }
          

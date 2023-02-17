@@ -5,7 +5,7 @@ date: 2023-01-06
 tags: witex
 ---
 
-* As part of our initial testing we were trying to see whether a task list, personalised task list, linear journey or other would be the best wasy to struture the service .
+* As part of our initial testing we were trying to see whether a task list, personalised task list, linear journey or other would be the best way to structure the service.
 
 * tl:dr - this is the better option
 
