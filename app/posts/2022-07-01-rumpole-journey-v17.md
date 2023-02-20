@@ -29,7 +29,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "2. Question on same page variation",
-       caption: "This was a sketch of a variation that wanted tested a way of asking if the user has all, some or none of their receipts. A simpler version was sketched later so this was not tested.  <br /><br /> <b>User Research</b><br /><br />Not tested.",
+       caption: "This was a sketch of a variation that tested asking if the user has all, some or none of their receipts. A simpler version was sketched later so this was not tested.  <br /><br /> <b>User Research</b><br /><br />Not tested.",
       img: { src: "1b.png" }
     },
         {
@@ -39,7 +39,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "4. Question on the upload screen",
-       caption: "This version works by simply asking if the user has missing receipts on the upload screen. We did not test this as we did not think it clear enough. All users would have to see the upload page even if they did not have any receipts, then they would have to wither scroll or read content on this page to see what to do. By putting a link on here, we would effectively be asking the user a question about whether they had their receipts or not, would rather break that question out and make it more obvious and clearer. <br /><br /> <b>User Research</b><br /><br />This version was not tested.",
+       caption: "This version works by simply asking if the user has missing receipts on the upload screen. We did not test this as we did not think it clear enough. All users would have to see the upload page even if they did not have any receipts, then they would have to either scroll or read content on this page to see what to do. By putting a link on here, we would effectively be asking the user a question about whether they had their receipts or not, would rather break that question out and make it more obvious and clearer. <br /><br /> <b>User Research</b><br /><br />This version was not tested.",
       img: { src: "3.png" }
     },
         {

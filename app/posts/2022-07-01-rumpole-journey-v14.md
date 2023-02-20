@@ -41,7 +41,7 @@ I need to do the thing<br /> -->
     },
         {
        text: "2. 1 day or less, how many hours",
-       caption: "A version for the MVP where we only have users that have 1 day or less in court.   <br /><br /> <b>Better than the previous version but doesn't really work. Users seemed to struggle to put the time in and didn't really like it.",
+       caption: "A version for the MVP where we only have users that have 1 day or less in court.   <br /><br /> User Research</b><br /><br />Better than the previous version but doesn't really work. Users seemed to struggle to put the time in and didn't really like it.",
       img: { src: "4.png" }
     },
         {

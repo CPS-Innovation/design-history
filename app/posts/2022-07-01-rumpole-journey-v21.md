@@ -25,12 +25,12 @@ I need to do the thing<br /> -->
 
     {
        text: "1. Choose what to claim",
-       caption: "We updated this to add 'including director of a limited company' to the employed section. On the current form we often have directors of ltd companies claiming self employment which is incorrect.   <br /><br /> <b>User Research</b><br /><br />T.b.c.",
+       caption: "We updated this to add 'including director of a limited company' to the employed section. On the current form we often have directors of Ltd companies claiming self employment which is incorrect.   <br /><br /> <b>User Research</b><br /><br />T.b.c.",
       img: { src: "1.png" }
     },
         {
        text: "2. Check unpaid day off",
-       caption: "Made simpler as we changed the policy to give everyone who claims this £67 for a full day and £38.50 for a half day.  <br /><br /> <b>User Research</b><br /><br />Clear",
+       caption: "Made simpler as we changed the policy to give everyone who claims this £67 for a full day and £33.50 for a half day.  <br /><br /> <b>User Research</b><br /><br />Clear",
       img: { src: "2.png" }
     },
             {
@@ -45,7 +45,7 @@ I need to do the thing<br /> -->
     },
             {
        text: "5. Check details",
-       caption: "We updated this to cater for both users who are ltd company directors who need to give their companies info and those who are employed and need to give their employers details  <br /><br /> <b>User Research</b><br /><br />T.b.c",
+       caption: "We updated this to cater for both users who are ltd company directors who need to give their companies info and those who are employed and need to give their employers details  <br /><br /> <b>User Research</b><br /><br />Is a bit confusing, we need to split out the Ltd Co info from the employed.",
       img: { src: "5.png" }
     }
        

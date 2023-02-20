@@ -24,7 +24,8 @@ I need to do the thing<br /> -->
 
     {
        text: "1. How to claim",
-       caption: "Updated and clarified. Made the link to the service clearer <br /><br /> <b>User Research</b><br /><br />Better but the call to action to start using the service is still not clear enough."
+       caption: "Updated and clarified. Made the link to the service clearer <br /><br /> <b>User Research</b><br /><br />Better but the call to action to start using the service is still not clear enough.",
+        img: { src: "1.png" }
     },
         {
        text: "2. Travel",
@@ -48,7 +49,7 @@ I need to do the thing<br /> -->
     },
             {
        text: "6. Care and childcare",
-       caption: "Mad shorter and simpler  <br /><br /> <b>User Research</b><br /><br />Need to help users understand whether they childcare is ofsted registered or not.",
+       caption: "Made shorter and simpler  <br /><br /> <b>User Research</b><br /><br />Need to help users understand whether they childcare is ofsted registered or not.",
       img: { src: "6.png" }
     },
             {
