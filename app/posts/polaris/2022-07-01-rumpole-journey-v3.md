@@ -3,6 +3,7 @@ title:  Rumpole journey with round 2 updates
 description: Sprint 3 updated journey
 date: 2022-02-01
 tags: polaris
+parent: polaris 
 ---
 
 * This is the third draft of a journey that starts with searching for a case file URN, allows users to find that case and open all the documents related to that case in a case viewer.

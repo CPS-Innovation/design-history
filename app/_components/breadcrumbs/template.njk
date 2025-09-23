@@ -1,4 +1,4 @@
-{% set items = params.items | eleventyNavigationBreadcrumb(params.key) %}
+<!-- {% set items = params.items | eleventyNavigationBreadcrumb(params.key) %}
 <div class="govuk-breadcrumbs{%- if params.classes %} {{ params.classes }}{% endif %}">
   <ol class="govuk-breadcrumbs__list">
   {%- for item in items %}
@@ -8,4 +8,34 @@
   {%- endfor %}
     <li class="govuk-breadcrumbs__list-item" aria-current="page">{{ params.title }}</li>
   </ol>
-</div>
+</div> -->
+
+
+{% set navKey = eleventyNavigation and eleventyNavigation.key %}
+{% set tree = collections.all | eleventyNavigation %}
+
+{% if navKey and (tree | navHasKey(navKey)) %}
+  {% set crumbs = tree | eleventyNavigationBreadcrumb(navKey) %}
+  <nav class="govuk-breadcrumbs" aria-label="Breadcrumb">
+    <ol class="govuk-breadcrumbs__list">
+      {% for c in crumbs %}
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ c.url | url | pretty }}">{{ c.title }}</a>
+        </li>
+      {% endfor %}
+      <li class="govuk-breadcrumbs__list-item" aria-current="page">{{ title or page.fileSlug }}</li>
+    </ol>
+  </nav>
+{% else %}
+  {# Fallback: Project → Current page, avoids crash during weird ordering #}
+  {% if project %}
+  <nav class="govuk-breadcrumbs" aria-label="Breadcrumb">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="/posts/{{ project }}/">{{ project | replace('-', ' ') | capitalize }}</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item" aria-current="page">{{ title or page.fileSlug }}</li>
+    </ol>
+  </nav>
+  {% endif %}
+{% endif %}

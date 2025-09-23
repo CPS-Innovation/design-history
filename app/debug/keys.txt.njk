@@ -1,0 +1,9 @@
+---
+permalink: /debug/keys.txt
+eleventyExcludeFromCollections: true
+---
+{% for item in collections.all %}
+{% if item.data.eleventyNavigation %}
+{{ item.data.eleventyNavigation.key }}    parent={{ item.data.eleventyNavigation.parent }}    url={{ item.url }}
+{% endif %}
+{% endfor %}

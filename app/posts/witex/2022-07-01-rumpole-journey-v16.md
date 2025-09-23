@@ -3,6 +3,7 @@ title:  Guidance updates
 description: Updated guidance based on user research
 date: 2023-01-17
 tags: witex
+parent: witex
 ---
 
 * The guidance went through several rounds of user research and we updated it to make it clearer.
