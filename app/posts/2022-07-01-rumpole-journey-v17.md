@@ -3,7 +3,6 @@ title:  I don't have all my receipts
 description: The policy was tweaked to allow users who didn't have all their receipts to give us a 'good reason' in order to get paid
 date: 2023-01-17
 tags: witex
-parent: witex
 ---
 
 * The policy was changed so that users who could not go back and get receipts (e.g. for train, bus, taxi etc) could give us a good reason why they did not have their receipts, and the team at wakefield can use their judgement on whether to pay them or not.

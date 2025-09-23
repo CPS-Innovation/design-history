@@ -6,9 +6,6 @@
 {% from "prose/macro.njk" import appProse %}
 
 {% block content %}
-  {# Add breadcrumbs at the top of the content block #}
-  {% include "breadcrumbs/template.njk" %}
-
   {% call appArticle({
     header: {
       title: title | widont
@@ -18,27 +15,27 @@
       modified: modified if modified
     }
   }) %}
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
-        {{ appProse({
-          prose: content
-        }) }}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      {{ appProse({
+        prose: content
+      }) }}
 
-        {% for collection in screenshots %}
-          {{ appScreenshots(collection) }}
-        {% else %}
-          {{ appScreenshots(screenshots) if screenshots }}
-        {% endfor %}
-      </div>
-
-      {% if related.items | length > 0 %}
-      <div class="govuk-grid-column-one-third">
-        {{ appRelated({
-          title: related.title or "Related links",
-          items: related.items
-        }) }}
-      </div>
-      {% endif %}
+      {% for collection in screenshots %}
+        {{ appScreenshots(collection) }}
+      {% else %}
+        {{ appScreenshots(screenshots) if screenshots }}
+      {% endfor %}
     </div>
+
+    {% if related.items | length > 0 %}
+    <div class="govuk-grid-column-one-third">
+      {{ appRelated({
+        title: related.title or "Related links",
+        items: related.items
+      }) }}
+    </div>
+    {% endif %}
+  </div>
   {% endcall %}
 {% endblock %}

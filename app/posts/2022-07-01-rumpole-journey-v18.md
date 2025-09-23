@@ -3,7 +3,6 @@ title:  Overnight stay changes
 description: Overnight stay was a little confusing for users so we updated the content and journey to make it clearer
 date: 2023-01-17
 tags: witex
-parent: witex
 ---
 
 * The policy was confusing users so we simplified the way it was presented by combining allowances into one and changing the order and content on the journey to make it clearer.

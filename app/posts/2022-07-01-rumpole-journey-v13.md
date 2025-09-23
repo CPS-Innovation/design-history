@@ -3,7 +3,6 @@ title:  First guidance
 description: First draft prototype of the guidance content
 date: 2023-01-12
 tags: witex
-parent: witex
 ---
 
 * One of the problems with the current process is that users don't know what they can claim before they get the blue forms. One of our hypothesis is that providing good quality guidance earlier in the journey will help users know what they can and can't claim.

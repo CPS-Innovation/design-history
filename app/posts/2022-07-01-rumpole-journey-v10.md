@@ -3,7 +3,6 @@ title:  Where should the receipts be uploaded
 description: Should users upload the receipts at the start, as they go or at the end
 date: 2023-01-07
 tags: witex
-parent: witex
 ---
 
 * We wanted to test a couple of different ways the user could upload receipts - at the start, as they go or at the end.

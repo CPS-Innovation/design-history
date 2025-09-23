@@ -3,7 +3,6 @@ title:  Scrolling
 description: How does the window scroll the navigation and the main content window to maximise space for content
 date: 2022-08-01
 tags: polaris
-parent: polaris 
 ---
 
 * We want to find a way to maximise the vertical screen real estate given over to case information - making sure that the service focuses on the important content.

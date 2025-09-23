@@ -3,7 +3,6 @@ title:  Food variations
 description: Variations on asking for how long a user has been in court to determine the food allowance they could claim
 date: 2023-01-14
 tags: witex
-parent: witex
 ---
 
 * Users can claim a fixed allowance to cover food costs whilst away from home or work.

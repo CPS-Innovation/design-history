@@ -3,7 +3,6 @@ title:  Task list variation
 description: Should it use the standard linear journey or would a task list or similar be better?
 date: 2023-01-05
 tags: witex
-parent: witex
 ---
 
 * We wanted to test a couple of different ways the user could move through the journey - a standard linear journey, a task list and a personalised task list where users choose what they want to claim and then see it presented as a task list.
