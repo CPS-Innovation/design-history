@@ -5,7 +5,7 @@
   "eleventyComputed": {
     "eleventyNavigation": {
       "parent": "polaris",
-      "key": "{{ title }}",
+       "key": "{{ page.fileSlug }}",
       "excerpt": "{{ description }}"
     }
   }

@@ -2,7 +2,6 @@
 title:  Carer addition
 description: Adult care is not a section in the current process. However it seemed unfair to users to allow childcare but not adult care.
 date: 2023-01-17
-tags: witex
 ---
 
 * We changed policy based on UR to make it clearer to users that they can claim for an adult carer.

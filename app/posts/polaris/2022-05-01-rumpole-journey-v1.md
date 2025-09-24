@@ -2,7 +2,6 @@
 title: Rumpole journey v1
 description: First draft of a search and view case file journey
 date: 2022-01-06
-tags: polaris
 ---
 
 This is the first draft of a journey that starts with searching for a case file URN, allows users to find that case and open all the documents related to that case in a case viewer. There is no searching in the case files in this version.

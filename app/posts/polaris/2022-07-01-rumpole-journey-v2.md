@@ -2,7 +2,6 @@
 title: Updated Rumpole journey with search
 description: Sprint 2 updated journey
 date: 2022-01-07
-tags: polaris
 ---
 
 * This is the second draft of a journey that starts with searching for a case file URN, allows users to find that case and open all the documents related to that case in a case viewer.

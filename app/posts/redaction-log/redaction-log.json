@@ -5,7 +5,7 @@
   "eleventyComputed": {
     "eleventyNavigation": {
       "parent": "redaction-log",
-      "key": "{{ title }}",
+      "key": "{{ page.fileSlug }}",
       "excerpt": "{{ description }}"
     }
   }

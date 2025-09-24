@@ -2,7 +2,6 @@
 title:  First linear prototype
 description: Testing initial ideas and length of journey. Not all sections are in here
 date: 2023-01-10
-tags: witex
 ---
 
 * This is one of our first rought drafts of a linear prototype. Based on the UR we did on the sketches and drawings of the 3 versions.

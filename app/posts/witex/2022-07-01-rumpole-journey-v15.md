@@ -2,7 +2,6 @@
 title:  Travel variations
 description: Variations on asking for how users travelled and how they can claim expenses for this
 date: 2023-01-15
-tags: witex
 ---
 
 * Users can claim for their travel expenses. The rules are slighlty different for each mode of transport. Some need receipts, some don't and there are criteria that change how much a user can claim e.g. for mileage.

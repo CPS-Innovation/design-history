@@ -10,7 +10,7 @@ pagination:
 permalink: "polaris/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 eleventyComputed:
   eleventyNavigation:
-    key: "{{ title }}"
+    key: polaris
     excerpt: "{{ description }}"
     parent: home
 ---

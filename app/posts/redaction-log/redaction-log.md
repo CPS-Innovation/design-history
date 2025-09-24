@@ -10,7 +10,7 @@ pagination:
 permalink: "redaction-log/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 eleventyComputed:
   eleventyNavigation:
-    key: "{{ title }}"
+    key: redaction-log
     excerpt: "{{ description }}"
     parent: home
 ---

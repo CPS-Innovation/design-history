@@ -2,7 +2,6 @@
 title:  Multiple defendants
 description: Sketches of a GDS design version of redaction log
 date: 2022-06-01
-tags: polaris
 ---
 
 * In magistrates courts over 90% of cases only have one defendant, our original design worked well for this scenario but we needed to update the design to handle multiple defendants - which could be up to 15 defendants in a crown court case (although this number of defendants is very unusual)

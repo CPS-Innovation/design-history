@@ -2,7 +2,6 @@
 title:  Loss of pay updates
 description: The current process makes it difficult for users to claim for loss of pay
 date: 2023-01-20
-tags: witex
 ---
 
 * We changed policy based on UR to make it easier for users to claim for loss of pay.
