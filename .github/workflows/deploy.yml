@@ -1,11 +1,13 @@
-name: Deploy Eleventy to GitHub Pages
+name: Build and Deploy Eleventy to GitHub Pages
 
 on:
   push:
     branches: [main]
 
 permissions:
-  contents: write  # Needed to push to gh-pages
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -13,10 +15,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 16
 
@@ -26,12 +28,18 @@ jobs:
       - name: Build Eleventy
         run: npm run build
 
-      - name: List public output (debug)
-        run: ls -al ./public
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload built site
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
