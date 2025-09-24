@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
 
   // Config
   return {
+    pathPrefix: "/design-history", // ✅ This is the only new line
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
