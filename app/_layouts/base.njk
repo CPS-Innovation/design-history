@@ -8,7 +8,8 @@
 {% from "breadcrumbs/macro.njk" import appBreadcrumbs %}
 
 {% block head %}
-<link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css">
+<!-- <link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css"> -->
+<link rel="stylesheet" href="{{ pathPrefix }}/stylesheets/application.css">
 <meta property="og:title" content="{{ title }}">
 {% if description %}<meta property="og:description" name="description" content="{{ description | markdown("inline") | striptags(true) }}">{% endif %}
 <meta name="robots" content="noindex nofollow">
