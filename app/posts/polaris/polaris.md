@@ -1,7 +1,7 @@
 ---
 override:tags: []
 layout: collection
-title: Polaris case review
+title: Review and redact a case
 description: A tool for reviewing and redacting cases
 pagination:
   data: collections.polaris
@@ -10,6 +10,7 @@ pagination:
 permalink: "polaris/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 eleventyComputed:
   eleventyNavigation:
+    title: Review and redact a case (legacy)
     key: polaris
     excerpt: "{{ description }}"
     parent: home
