@@ -2,7 +2,7 @@
 override:tags: []
 layout: collection
 title: VCA
-description: A tool for doing the thing
+description: Managing and communicating with a witness
 pagination:
   data: collections.vca
   reverse: true

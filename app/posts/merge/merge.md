@@ -2,7 +2,7 @@
 override:tags: []
 layout: collection
 title: Merge
-description: A tool for viewing, updating and redacting case material
+description: Viewing, updating and redacting case material
 pagination:
   data: collections.merge
   reverse: true

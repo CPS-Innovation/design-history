@@ -2,7 +2,7 @@
 override:tags: []
 layout: collection
 title: Claim witness expenses
-description: A tool for claiming witness expenses online
+description: Claiming witness expenses online
 pagination:
   data: collections.witex
   reverse: true
